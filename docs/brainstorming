@@ -1,0 +1,6 @@
+Physical Layout:
+10 1M light strips (each with 30 lights) will be spread out away from the center of the circle. At the center will be a sound sensor, a button, and three LEDs (1 each red, green, and blue) placed in color corresponding paper lanterns.
+
+The button will cycle through the colors, changing the LED selector button as well as the color palatte of the light strips.
+
+When quiet, the lights will remain a single shade of selected color. As volume increases, the LEDs will randomly change to a randome shade of selected color
