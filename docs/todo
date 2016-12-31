@@ -1,0 +1,69 @@
+
+
+
+setup intel edison
+  admin password
+  wifi
+  remote ssh
+
+setup testing/debugging
+light automation basics
+learn how to safely shutdown and reset
+  understand what build in buttons do and how to modify
+  write a shutdown program script
+  assign script to shutdown buttons
+
+light setup/testing
+  add Arduino to connections
+  add LEDS to connections
+  create file for ledcontroller
+  create file for test program, link to controller and main.js
+  set a timeout for automatically turning off lights
+  add auto shutdown to shutdown script
+  gain control of the arduino with the edisons
+  flash single LED of light strip with Arduino
+  flash single LED of light strip with edison
+
+basic light program
+  turn on all lights simultaneous
+  cycle through lights in loop
+  change colors of lights progressively in loop
+  limit color selection to only blue lights
+  have lights randomly cycle through blue colors
+  have lights progressivlely change color through blue spectrum
+  set light program to run automatically upon boot
+
+sound sensor
+  add sound connections and correlating controllers
+  get current decibel level
+  change an individual lights color if decibel limit is triggered
+  change a light in a series if a condition is met
+  probe sound sensor for other information it can provide
+
+button controller
+led light controller
+onboard led screen controller
+setup mqtt pub/sub
+  publish sensor statistics
+
+simple remote dashboard node.js app on heroku
+  subscribe to mqtt
+  set up http server
+  hello world
+  set up react app
+    design and set up html/css dashboard
+    serve subscribed data to dashboard
+
+Later/Maybe
+  set up router on cloud node
+  setup ssh tunnel for monitoring edison dashboard remotely
+  setup local file storage
+  setup database on device
+    setup record program
+      create data save file
+      create data recording event
+      configure button to trigger event
+    record all data
+
+  setup database on remote server
+  move data from local db to remote db
